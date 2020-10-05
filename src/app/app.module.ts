@@ -5,12 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
-import {ProductService} from './product.service'
+import {ProductService} from './product.service';
+import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    ProductTracklistingComponent
   ],
   imports: [
     BrowserModule,
